@@ -1,0 +1,2 @@
+# Welcome
+### This repository contains data science/analysis projects that I've submitted to Kaggle.com. In these notebooks, I deploy different EDA and visualization methods, as well as different machine learning algorithms for regression, classification, and clustering of data. As time goes on, I hope to learn more about deep learning methods and create projects using those. In any case, enjoy!
