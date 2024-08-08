@@ -1,0 +1,26 @@
+Step-by-Step Approach
+
+Data Preparation:
+-Ensure that player identifiers are consistent between the regular season and playoff datasets.
+-Filter relevant columns, specifically focusing on PLAYER_ID, PLAYER, TEAM, year, FG3_PCT.
+
+Calculate Average FG3_PCT:
+-Compute the average FG3_PCT for each player in the regular season and the playoffs for each year.
+
+Calculate Difference in FG3_PCT:
+-Calculate the difference between the playoff FG3_PCT and regular season FG3_PCT for each player.
+
+Statistical Distribution:
+-Create a distribution of these differences to visualize the overall trend.
+
+Identify Top and Bottom Performers:
+-Determine the top 10% and bottom 10% of players based on their FG3_PCT differences.
+
+Distribution Plot:
+-Plot a histogram or kernel density estimate (KDE) of the differences in FG3_PCT to observe the distribution shape.
+
+Top and Bottom Performers:
+-List the players who fall into the top 10% and bottom 10% based on their FG3_PCT differences.
+
+Contextual Analysis:
+-Provide additional context by analyzing whether these players' performances had a significant impact on their teams' success in the playoffs.
